@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: rgb(113, 82, 33);
+}
+.container{
+ width:100vw;
+ height:100vh;
+ border: solid red 2px;
+background: linear-gradient(45deg, #ffefa5 0.000%, #ff9957 50.000%, #ff3b56 100.000%);
+overflow-x: none;
+}
+.nav{
+  width:1515px;
+  height:70px;
+  display: flex;
+  justify-content: space-between;
+ /* https://grabient.com/HQFgrA7ANKBsCcMBMBGWMTyRsJlL2AA5YwYJ4BmGI3GWEQsJaS0ABnZhTGpThQxmg9kA */
+
+background: linear-gradient(90deg, #2a001b 0.000%, #78130c 16.667%, #ce480e 33.333%, #ff8d22 50.000%, #ffd543 66.667%, #ffff69 83.333%, #ffff8d 100.000%);
+  font-size: 0.7 rem;
+  align-items: center;
+  gap: 20px;
+
+}
+h2{
+  margin:2px;
+  font-size: 0.7rem;
+  color: rgb(113, 82, 33);
+
+}
+#navtag{
+  display:flex;
+  gap:10px;
+}
+.recipe1{
+  width: 50%;
+  height: 50%;
+  border-radius:20px;
+}
+.recipe3{
+  width: 50%;
+  height: 50%;
+  border-radius:20px;
+}
+
+.recipe1{
+  padding:30px;
+  width: 60%;
+  height: 50%;
+  background: linear-gradient(135deg, #f5e4d9 0.000%, #fbd6d3 20.000%, #f8c5c3 40.000%, #ecafae 60.000%, #d79697 80.000%, #b97a83 100.000%);
+  margin: 30px;
+  display:flex;
+  justify-content: space-between;
+
+}
+.recipe3{
+  padding:30px;
+  width: 60%;
+  height: 50%;
+  background: linear-gradient(135deg, #f5e4d9 0.000%, #fbd6d3 20.000%, #f8c5c3 40.000%, #ecafae 60.000%, #d79697 80.000%, #b97a83 100.000%);
+  margin: 30px;
+  display:flex;
+  justify-content: space-between;
+
+}
+img{
+  border: solid goldenrod 2px;
+  border-radius:20px;
+  transition: all 5s linear 1s;
+  
+}
+img:hover{
+  transform: scale(1.1);
+}
+footer{
+  background-color: #ff3b56;
+}
+#h2{
+  display: flex;
+  align-self: center;
+}
