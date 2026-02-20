@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    max-width: 1530px;
+    align-self: center;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(142, 202, 202);
+}
+imglogo{
+    background-color: rgb(203, 203, 224);
+    height: 200px;
+    width: 200px;
+}
+imgdes{
+    gap:0.9rem;
+    color: rgb(223, 219, 213);
+    font-weight: bold;
+    font-size: larger;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap:1.5rem;
+    font-weight: bold;
+    color: rgb(191, 165, 216);
+
+}
+#contactus{
+    height:50px;
+    width:50px;
+    background-color: rgb(14, 162, 185);
+    color: aliceblue;
+
+}
+
